@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.backgound{
+    background-color: #1F2937;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+ ul{
+    display: flex;
+    list-style: none;
+   
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.wrapper-sign{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.signup_header{
+
+    margin-bottom: 15px;
+}
+
+.signup{
+    border: 2px white solid;
+    border-radius: 6px;
+    padding: 6px 18px;
+    background: #3882F6;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.header_pic{
+    width: 400px;
+    height: 200px;
+}
+
+/* Here begins section two*/
+.container_section2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container_section2 h2{
+
+    font-weight: 2000;
+}
+
+.wrapper_section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.wrapper_section2 p{
+    text-align: center;
+}
+
+
+
+.japan{
+    height: 150px;
+    width: 150px;
+    border: 4px plum solid;
+}
+
+/* Here begins section three*/
+.background_section3{
+    background-color: #E5E7EB;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.third_section{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.long_quote{
+    margin-top: 80px;
+}
+
+.quote{
+    font-weight: bold
+}
+
+/* Here begins section four*/
+.section4{
+    height: 200px;
+    margin-bottom: 100px;
+    display: flex;
+   justify-content: space-around;
+   color: white;
+}
+
+.wrapper4{
+    background-color: #3882F6;
+    padding: 20px 250px;
+    padding-top: 50px;
+
+}
+
+.section4_paragraph{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*Here begins the last section*/
+.last_sec{
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
